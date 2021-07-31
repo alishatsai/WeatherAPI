@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  CurrentViewController.swift
 //  SmileWeather
 //
 //  Created by Alisha on 2021/7/17.
@@ -8,7 +8,7 @@
 import UIKit
 import CoreLocation
 
-class ViewController: UIViewController, CLLocationManagerDelegate, UISearchBarDelegate {
+class CurrentViewController: UIViewController, CLLocationManagerDelegate, UISearchBarDelegate {
     
     @IBOutlet weak var currentWeatherImg: UIImageView!
     @IBOutlet weak var locationLabel: UILabel!
